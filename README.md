@@ -1,0 +1,2 @@
+A responsive and stylish HTML/CSS footer for NOIDA WALE.in — clean design, easy to integrate, and mobile-friendly.
+Noidawale.in is a local service-based platform designed to connect Noida residents and businesses with trusted service providers. It offers quick, reliable, and affordable access to verified services, aiming to become a one-stop solution for everyday needs in the region through a seamless and user-friendly digital experience.
