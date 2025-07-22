@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        /* Footer Styles */
+.footer {
+  background-color: #1f1f1f;
+  color: aqua;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 50px 20px 20px;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  border-bottom: 1px solid #333;
+  padding-bottom: 50px;
+}
+
+.footer-section {
+  flex: 1 1 300px;
+  margin: 20px;
+}
+
+.footer h2 {
+  color: #28ff48;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.footer h3 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.footer p, .footer a {
+  color: #bfbfbf;
+  font-size: 14px;
+  line-height: 1.8;
+  text-decoration: dotted;
+}
+
+.footer a:hover {
+  color: #ffffff;
+  text-decoration: solid;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    text-align: center;
+    margin: 15px 0;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <footer class="footer">
+        <div class="footer-top">
+          <div class="footer-section about">
+            <h2>NOIDA WALE.in</h2>
+            <p>
+              Noidawale.in connects Noida residents with verified local service providers. We aim to support small businesses, boost local employment, and make daily services hassle-free.
+            </p>
+          </div>
+      
+          <div class="footer-section links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="/services">Services</a></li>
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/contact">Contact</a></li>
+              <li><a href="/faq">FAQs</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section contact">
+            <h3>Contact Us</h3>
+            <p>Email: <a href="mailto:support@noidawale.in">support@noidawale.in</a></p>
+            <p>Phone: <a href="tel:+919876543210">+91 98765 43210</a></p>
+            <p>Noida, Uttar Pradesh, India</p>
+          </div>
+        </div>
+      
+        <div class="footer-bottom">
+          <p>&copy; 2025 <strong>NOIDAWALE.in</strong> — All Rights Reserved.</p>
+        </div>
+      </footer>
+      
+</body>
+</html>
